@@ -1,0 +1,36 @@
+.card-expanded {
+  position: absolute;
+  width: 60%;
+  height: 90vh;
+  z-index: 10;
+  left: 13rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  flood-color: aliceblue;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.chart-close {
+  align-self: flex-end;
+  cursor: pointer;
+  color: #fff;
+}
+
+.card-expanded > span:nth-of-type(1) {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-shadow: 0 0 15px #fff;
+}
+
+.card-expanded > span:nth-of-type(2) {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.chart-container{
+    width: 70%;
+}
