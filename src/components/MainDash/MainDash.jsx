@@ -1,4 +1,5 @@
 import Cards from "../Cards/Cards";
+import Table from "../Table/Table";
 import "./MainDash.css";
 
 const MainDash = () => {
@@ -6,6 +7,7 @@ const MainDash = () => {
     <div className="main-dash">
       <h1>Dashboard</h1>
       <Cards />
+      <Table />
     </div>
   );
 };

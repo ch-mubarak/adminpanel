@@ -1,0 +1,25 @@
+.MuiTableRow-root > * {
+  padding: 10px;
+}
+
+.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+.table td,
+th {
+  border: none !important;
+}
+
+.table:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.table-status {
+  padding: 4px 8px;
+  border-radius: 9px;
+}
+
+.table-details {
+  color: #00b5ff !important;
+}
