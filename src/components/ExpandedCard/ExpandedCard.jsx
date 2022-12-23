@@ -7,7 +7,7 @@ const ExpandedCard = ({ setExpanded, color, title, series }) => {
   const data = {
     options: {
       chart: {
-        chart: "area",
+        type: "area",
         height: "auto",
       },
       dropShadow: {
