@@ -1,9 +1,10 @@
 .card-expanded {
   position: absolute;
-  width: 60%;
-  height: 90vh;
+  width: 50%;
+  height: 80vh;
   z-index: 10;
-  left: 13rem;
+  left: 23rem;
+  bottom:4.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
